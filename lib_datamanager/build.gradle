@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
-
+// 启用 android-maven 插件
+apply plugin: 'com.github.dcendents.android-maven'
+// 关联Github地址, 格式为 com.github.(用户名)
+group = 'com.github.LionsZhang'
 android {
     compileSdkVersion build_versions.compile_Sdk
     buildToolsVersion build_versions.build_tools
