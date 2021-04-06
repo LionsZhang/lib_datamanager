@@ -1,0 +1,3 @@
+include ':lib_datamanager'
+include ':app'
+rootProject.name = "lib_datamanager"
